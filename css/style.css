@@ -127,7 +127,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .mao-greyscale,.mao-grayscale{filter:grayscale(75%)}.mao-greyscale-min,.mao-grayscale-min{filter:grayscale(50%)}
 .mao-sepia{filter:sepia(75%)}.mao-sepia-max,.mao-hover-sepia:hover{filter:sepia(100%)}.mao-sepia-min{filter:sepia(50%)}
 .mao-tiny{font-size:10px!important}.mao-small{font-size:12px!important}.mao-medium{font-size:15px!important}.mao-large{font-size:18px!important}
-.mao-xlarge{font-size:24px!important}.mao-xxlarge{font-size:36px!important}.mao-xxxlarge{font-size:48px!important}.mao-jumbo{font-size:64px!important}
+.mao-xlarge{font-size:24px!important}.mao-xxlarge{font-size:36px!important}.mao-xxxlarge{font-size:48px!important}.mao-jumbo{font-size:2.5rem!important}
 .mao-left-align{text-align:left!important}.mao-right-align{text-align:right!important}.mao-justify{text-align:justify!important}.mao-center{text-align:center!important}
 .mao-border-0{border:0!important}.mao-border{border:1px solid #ccc!important}
 .mao-border-top{border-top:1px solid #ccc!important}.mao-border-bottom{border-bottom:1px solid #ccc!important}
