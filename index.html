@@ -1,1 +1,153 @@
-test
+<!DOCTYPE html>
+<html>
+<head>
+<title>JustEmuTarkov - Website</title>
+<meta charset="UTF-8">
+<meta name="description" content="Backend emulator with countless possibilities, for games such as Tarkov">
+<meta name="keywords" content="EFT,Tarkov,Emulator,EmuTarkov,JustEmuTarkov,JUSTEMUTARKOV,JET,offline-tarkov, offline tarkov, offline eft, proggress save, proggression save,escape from tarkov, Escape From Tarkov, Backend Emulator, offline, online, multiplayer, singleplayer">
+<meta name="author" content="TheMaoci">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/google-font-montserrat.css">
+<script src="https://kit.fontawesome.com/c196876b0e.js" crossorigin="anonymous"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.mao-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.mao-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="mao-black">
+<!---- Temporal Work In Progress Notifier ---->
+<div style="position:fixed;top:10px;left:calc(50% - 150px);right:auto;width:300px;height:50px;border:1px solid #fff; border-radius:10px;background:#000;margin:0 auto;text-align:center;padding:10px;font-size:20px;">
+	Work In Progress...
+</div>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="mao-sidebar mao-bar-block mao-small mao-hide-small mao-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./images/icon.png" style="width:100%">
+  <a href="#" class="mao-bar-item mao-button mao-padding-large mao-hover-black">
+    <i class="fas fa-home"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="mao-bar-item mao-button mao-padding-large mao-hover-black">
+    <i class="fas fa-info-circle"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="https://github.com/justemutarkov/" class="mao-bar-item mao-button mao-padding-large mao-hover-black">
+    <i class="fab fa-github"></i>
+    <p>GITHUB</p>
+  </a>
+  <a href="https://discord.gg/T66tGKa" class="mao-bar-item mao-button mao-padding-large mao-hover-black">
+    <i class="fab fa-discord"></i>
+    <p>DISCORD</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="mao-top mao-hide-large mao-hide-medium" id="myNavbar">
+  <div class="mao-bar mao-black mao-opacity mao-hover-opacity-off mao-center mao-small">
+    <a href="#" class="mao-bar-item mao-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="mao-bar-item mao-button" style="width:25% !important">ABOUT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="mao-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="mao-container mao-padding-32 mao-center mao-black" id="home">
+    <h1 class="mao-jumbo"><span class="mao-hide-small">Just</span>EmuTarkov</h1>
+    <p>A Backend Emulator</p>
+    <img src="./images/background.png" alt="image" class="mao-image" width="100%" height="auto">
+  </header>
+
+  <!-- About Section -->
+  <div class="mao-content mao-justify mao-text-grey mao-padding-64" id="about">
+    <h2 class="mao-text-light-grey">JustEmuTarkov - Backend Emulator</h2>
+    <hr style="width:200px" class="mao-opacity">
+    <p>
+		<b>Written In JS</b><br>
+		Server is written in JS (Node), its easy to edit and modify
+	</p>
+	<p>
+		<b>Low amount of files</b><br>
+		Whole server closes at around 2.500 files where size of server really doesn't change much its around 50MB (arter archiveing it it taking less then 10MB)
+	</p>
+	<p>
+		<b>Properly working Cache system</b><br>
+		Cache system which actually works. After Cacheing is done you can literally delete almost 10 folders from DB folder without server even noticing it.
+	</p>
+	<p>
+		<b>System prepared for Multiplayer</b><br>
+		Requests and responses prepared to suit multiplayer server (yes for multi players in one match)
+	</p>
+	<p>
+		<b>Server allow to run diffrent game versions</b><br>
+		Yes. Server will allow to run diffrent versions of clients the only thing changed will be db folder
+	</p>
+    <p>
+		<b>When Server and files will get released ?</b><br>
+		After they gona be ready...
+	</p>
+
+
+    <!-- About Section - Download -->
+    <button class="mao-button mao-light-grey mao-padding-large mao-section">
+      <a href="https://github.com/justemutarkov/"><i class="fa fa-download"></i> Download</a>
+    </button>
+
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Media Section -->
+  <div class="mao-padding-64 mao-content" id="photos">
+    <h2 class="mao-text-light-grey">Screenshoot's & Video's</h2>
+    <hr style="width:200px" class="mao-opacity">
+	<p><i class="mao-text-grey">Placeholder screenshots for now...</i></p>
+    <!-- Grid for photos -->
+    <div class="mao-row-padding" style="margin:0 -16px">
+      <div class="mao-half">
+        <img src="./images/01.png" style="width:100%">
+        <img src="./images/02.png" style="width:100%">
+        <img src="./images/03.png" style="width:100%">
+      </div>
+
+      <div class="mao-half">
+        <img src="./images/04.png" style="width:100%">
+        <img src="./images/05.png" style="width:100%">
+        <img src="./images/06.png" style="width:100%">
+        <img src="./images/07.png" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+  <!-- Section -->
+  <div class="mao-padding-64 mao-content mao-text-grey" id="todo-list">
+	<p>TODO:</p>
+	<ul>
+		<li>update images</li>
+		<li>add heared image</li>
+		<li>add more text/descriptions</li>
+		<li>more links</li>
+		<li>fix grammar if exist</li>
+	</ul>
+  <!-- End Section -->
+  </div>
+    <!-- Footer -->
+  <footer class="mao-content mao-padding-64 mao-text-grey mao-xlarge">
+    <a href="https://github.com/justemutarkov/"><i class="fab fa-github mao-hover-opacity"></i></a>
+    <a href="#"><i class="fab fa-discord mao-hover-opacity"></i></a>
+    <p class="mao-medium">Made by <a href="https://maoci.eu" target="_blank" class="mao-hover-text-green">TheMaoci</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
