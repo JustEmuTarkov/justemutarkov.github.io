@@ -232,3 +232,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .mao-border-pale-yellow,.mao-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.mao-border-pale-blue,.mao-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 a{text-decoration:none;}
 a:hover{color:red;}
+#photos .mao-half img{object-fit: cover;height:200px;cursor:pointer;}
